@@ -7,8 +7,8 @@ setting time.
 ### Hardware Used:
 - Zynq-7000 System-on-Chip (SoC) Zedboard
 - 4 seven-segment displays(2 common anode and 2 common cathode)
-<img src="https://github.com/ahad18abd/FPGA-clock/blob/master/images/zedboard.webp" width="50%" height="50%" >
-<img src="https://github.com/ahad18abd/FPGA-clock/blob/master/images/7segment.jpeg" width="10%" height="10%" >
+<img src="https://github.com/Ayazz11/Digital-Clock/blob/main/image/3.jpeg" width="50%" height="50%" >
+<img src="https://github.com/Ayazz11/Digital-Clock/blob/main/image/7%20segment%20display.png" width="10%" height="10%" >
 
 ### Enviroment/Software
 - Xilinx Vivado
@@ -24,7 +24,7 @@ so Using these clock, we implemented counter with following constrains:
 * Hour Tenth-digit with clock of frequency 1/36000 Hz, that counts from 0-2
 
 For displaying these counter as decimal digits, we used 7 segment displays and implemented logic accordingly.
-<img src="https://github.com/ahad18abd/FPGA-clock/blob/master/images/maxresdefault.jpg" width="50%" height="50%" >
+<img src="https://github.com/Ayazz11/Digital-Clock/blob/main/image/2.png" width="50%" height="50%" >
 
 Here comes the tricky part,To use 4 displays we need 8x4=32 output pins, Zynq-7000 zedboard doesn't have these many pins :(.
 So we connected seven segment dispalys in couple with same pins, and switched on-off alternatively with high frequency such that toggling is not visible to human eyes.
