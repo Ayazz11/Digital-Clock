@@ -8,6 +8,7 @@ setting time.
 - Zynq-7000 System-on-Chip (SoC) Zedboard
 - 4 seven-segment displays(2 common anode and 2 common cathode)
 <img src="https://github.com/Ayazz11/Digital-Clock/blob/main/image/3.jpeg" width="50%" height="50%" >
+<img src="https://github.com/Ayazz11/Digital-Clock/blob/main/image/1.jpeg" width="50%" height="50%" >
 <img src="https://github.com/Ayazz11/Digital-Clock/blob/main/image/7%20segment%20display.png" width="10%" height="10%" >
 
 ### Enviroment/Software
